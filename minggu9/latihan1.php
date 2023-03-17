@@ -24,7 +24,7 @@ $mahasiswa =[
     <title>Latihan</title>
 </head>
 <body>
-<h1>Dafar Mahasiswa</h1>
+<h1>Daftar Mahasiswa</h1>
 <ul>
     <?php foreach ($mahasiswa as $m) :?>
     <li>
