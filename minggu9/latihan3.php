@@ -7,9 +7,14 @@
     <title>Metode POST</title>
 </head>
 <body>
+    <?php 
+    if (isset($_POST["submit"])) :
+    ?>
+    <h1>Welcome, <?= $_POST["nama"];?> </h1>
+    <?php endif; ?>
     <!-- metode get untuk menampilkan url key value
     metode post untuk menyembunyikan input key value -->
-    <form action="latihan4.php" method="POST">
+    <form  method="POST">
     Masukkan nama:
     <input type="text" name="nama">
     <br>
